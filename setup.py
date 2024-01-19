@@ -8,7 +8,7 @@ setup(
   author = 'Kamalpreet Kaur',                   # Type in your name
   author_email = 'kkamal101203@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/kkamal2003/Topsis_Kamal_102103259',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/kkamal2003/Topsis_Kamal_102103259/archive/refs/tags/v1.0.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/kkamal2003/Topsis_Kamal_102103259/archive/refs/tags/v1.0.1.tar.gz',    # I explain this later on
   keywords = ['python','pandas','numpy','sys'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'validators',
