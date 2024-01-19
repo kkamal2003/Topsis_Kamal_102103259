@@ -2,11 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="Topsis_Kamal_102103259",
-    version="1.0.11",
+    version="1.0.12",
     author="Kamalpreet Kaur",
     author_email="kkamal101203@gmail.com",
     url="https://github.com/kkamal2003/Topsis_Kamal_102103259",
     description="A python package for implementing topsis",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
