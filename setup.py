@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Topsis_Kamal_102103259",
-    version="1.0.9",
+    version="1.0.10",
     author="Kamalpreet Kaur",
     author_email="kkamal101203@gmail.com",
     url="https://github.com/kkamal2003/Topsis_Kamal_102103259",
