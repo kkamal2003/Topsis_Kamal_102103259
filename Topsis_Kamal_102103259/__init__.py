@@ -1,4 +1,4 @@
-from Topsis_102103259 import TOPSIS
+from .Topsis_102103259 import TOPSIS
 import sys
 
 if __name__ == "__main__":
