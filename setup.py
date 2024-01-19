@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Topsis_Kamal_102103259",
-    version="1.0.6",
+    version="1.0.7",
     author="Kamalpreet Kaur",
     author_email="kkamal101203@gmail.com",
     url="https://github.com/kkamal2003/Topsis_Kamal_102103259",
@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=["pandas", "numpy"],
-    entry_points={"console_scripts": ["Topsis_Kamal_102103259 = Topsis_Kamal_102103259.Topsis_102103259:TOPSIS"]},
+    entry_points={"console_scripts": ["Topsis_Kamal_102103259 = Topsis_Kamal_102103259.main:main"]},
 )
