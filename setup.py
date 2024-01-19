@@ -1,8 +1,11 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name="Topsis_Kamal_102103259",
-    version="1.0.12",
+    version="1.0.13",
     author="Kamalpreet Kaur",
     author_email="kkamal101203@gmail.com",
     url="https://github.com/kkamal2003/Topsis_Kamal_102103259",
