@@ -25,6 +25,14 @@ def TOPSIS(input_file,weights,impacts,output_file):
     ideal_best = np.max(weighted_normalized_data,axis = 0)
     ideal_worst = np.min(weighted_normalized_data,axis = 0)
     
+    for col, impact in enumerate(impacts):
+        if impact == '-':
+            # Swap values for '-' impact
+            ideal_best[col], ideal_worst[col] = ideal_worst[col], ideal_best[col]
+        elif impact != '+':
+            print(f"Unsupported impact type: {impact}")
+            sys.exit(1)
+    
     separation_best = np.sqrt(((weighted_normalized_data-ideal_best)**2).sum(axis =1))
     separation_worst = np.sqrt(((weighted_normalized_data-ideal_worst)**2).sum(axis = 1))
     

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="Topsis_Kamal_102103259",
-    version="1.0.13",
+    version="1.0.14",
     author="Kamalpreet Kaur",
     author_email="kkamal101203@gmail.com",
     url="https://github.com/kkamal2003/Topsis_Kamal_102103259",
